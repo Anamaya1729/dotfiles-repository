@@ -3,8 +3,7 @@
 	email = sharma.011999@gmail.com
 
 [core]
-  editor = nvim
-  pager = diff-highlight | less -FRX
+  editor = lvim
 
 [color]
   ui = always
@@ -25,7 +24,7 @@
   bb = branch -a
   bd = branch -d
   cherry-pit = "!f() { git rebase -p --onto \"$1\"^ \"$1\"; }; f"
-  cm = commit -m
+  cm = commit -am
   co = checkout
   d = diff
   ec = config --global -e
@@ -34,7 +33,7 @@
   ll = log --relative-date --graph --abbrev-commit
   p = push
   remotes = remote -v
-  s = status -s
+  s = status 
   sd = d --cached
   sh = show
 
