@@ -1,0 +1,9 @@
+[maintenance]
+	repo = /home/anamaya/.gitPlugins/zsh-snap
+[user]
+	email = sharma.011999@gmail.com
+	name = anamaya
+[credential]
+	helper = store
+[safe]
+	directory = *
