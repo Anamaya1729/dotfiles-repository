@@ -174,7 +174,7 @@ alias i="sudo pacman -S"
 alias y="yay -Syu"
 alias r="sudo pacman -Rns"
 alias yi="yay -S"
-alias ls="exa -l"
+alias ll="exa -l"
 alias cat="bat"
 plugins=(
   zsh-syntax-highlighting
