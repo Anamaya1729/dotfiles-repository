@@ -75,7 +75,10 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="powerlevel10k/powerlevel10k"
+
+
+ZSH_THEME="bullet-train"
+
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -180,6 +183,27 @@ plugins=(
   zsh-syntax-highlighting
   zsh-autosuggestions
   )
+
+BULLETTRAIN_PROMPT_ORDER=(
+  context
+  dir
+  git
+  status
+)
+
+BULLETTRAIN_PROMPT_CHAR=\$
+BULLETTRAIN_PROMPT_ROOT=true
+BULLETTRAIN_PROMPT_SEPARATE_LINE=true
+BULLETTRAIN_PROMPT_ADD_NEWLINE=true
+
+BULLETTRAIN_STATUS_EXIT_SHOW=true
+BULLETTRAIN_STATUS_BG=blue
+BULLETTRAIN_TIME_12HR=true
+
+BULLETTRAIN_CONTEXT_BG=#234882
+
+
+
 
 
 source .oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
