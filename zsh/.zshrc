@@ -35,7 +35,7 @@ alias i="sudo pacman -S"
 alias y="yay -Syu"
 alias r="sudo pacman -Rns"
 alias yi="yay -S"
-#alias ll="exa -la"
+alias ll="exa -la"
 alias cat="bat"
 
 ## Exports
