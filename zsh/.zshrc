@@ -86,7 +86,7 @@ alias histg='history | grep'
 alias myip='curl ipv4.icanhazip.com'
 alias grep='grep --color=auto'
 alias ys="yay -s"
-alisa e="exit"
+alias e="exit"
 # alias ll='ls -lisa --color=auto'
 
 ## Plugins
@@ -116,7 +116,6 @@ BULLETTRAIN_CONTEXT_BG=#234882
 BULLETTRAIN_GIT_BG=#9e48a1
 
 ## Commands to run at start
-neofetch
 
 ## Exports
 
